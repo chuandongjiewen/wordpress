@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+/*清除浮动*/
+.cl:after{content: ".";display: block;height: 0px;clear: both;visibility: hidden;}
+* html .cl{height: 1%;}/*IE6*/
+*:first-child+html .cl{min-height: 1px;}/*IE7*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,img{margin:0;padding:0;}
+.mau{margin:0 auto;}
+img{border:0;} .tr{text-align: right;}
+ol,ul { list-style:none;}
+.top_unit,#teacher p,#contact p,.nav,.nav_content{font-family:方正正大黑简体;}
+body{
+	font-family:"Microsoft YaHei",微软雅黑;
+	word-wrap:break-word;
+	width:100%;
+}
+
+.font18{font-size: 18px;}.fontb{font-weight: bold;}
+a.more{color:#28909c;font-size: 14px;}
+a.more:hover{}
+a{text-decoration: none;}
+input:focus{outline: 0;}
+.fl{float:left;display: inline;}
+.fr{float:right;display: inline;}
+.title_color{color: #28909c;}
+.inl{display:inline;}
+.more_a:link,.more_a:visited{
+	font-size:14px;
+	font-weight:bold;
+	color:#28909C;
+	text-decoration:none;
+}
+.more_a:hover{
+	font-size:14px;
+	font-weight:bold;
+	color:#026972;
+	text-decoration:none;
+}
+.nav,.menu{
+			padding-top:11px;
+			padding-bottom:31px;
+}
+
+		.nav ul,.menu ul{
+			background:#F2F7FA;
+			border-left:1px solid #DEEAEF;
+			border-right:1px solid #DEEAEF;
+			border-top:1px solid #DEEAEF;
+			border-bottom:1px solid #B1C7D3;
+		}
+		.nav ul li{
+			text-align:center;
+			border-bottom:1px solid #CEE2EC;
+			height: 44px;
+		}
+			#lastli{
+				height:44px;
+				text-align:center;
+				border:0;
+			}
+			.nav a{
+				color:#628CB2;
+				text-decoration:none;
+				display:block;
+				height:44px;
+				line-height:44px;
+				font-size:22px;			
+			}
+			a.current1, .nav a:hover,.nav_content li a:hover{
+				color:#FFF;
+				text-decoration:none;
+				background:url(../images/nav_li_hover.png) repeat-x;
+			}
+.footer{
+	height:114px;
+	width:100%;
+	color:#353535;
+	margin-top: 20px;
+	font-size:14px;
+
+}
+.f_color1{	background:#FFF;}
+.f_color2{ background: #e7f2f8;}
+	.footer_top{
+		height:55px;
+		width:960px;
+		font-weight:bold;
+		line-height:55px;
+		border-bottom:#ADADAD 1px solid;
+	}
+		.footer a:link,.footer a:visited{
+			color:#353535;
+			font-weight:normal;
+			font-size:14px;
+			margin-left:5px;
+			text-decoration:none;
+		}
+		.footer a:hover{
+			color:#408AB4;
+			font-weight:normal;
+			font-size:14px;
+			margin-left:5px;
+			text-decoration:none;
+		}
+	.footer_bottom{
+		height:58px;
+		line-height:58px;
+		width:960px;
+	}
+.wrapper{
+	min-width:1348px;
+	_width:1348px;
+	
+	width:100%;
+	z-index: 0;
+}
+.content{
+		width:960px;
+		/* margin:0 auto;*/
+}

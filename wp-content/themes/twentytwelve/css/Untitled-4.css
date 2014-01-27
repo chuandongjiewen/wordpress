@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+li,ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+.fl{
+	float:left;
+	display:inline;
+}
+/*真正要用到的在下面*/
+.menu{
+	padding-top:12px;
+	background:url(../images/science_navbg.png) no-repeat;
+	width:159px;
+	height:500px;
+}
+	.menu ul{
+		width:131px;
+		height:467px;
+		border-left:1px solid #D8E6ED;
+		border-right:1px solid #D8E6ED;
+		border-top:1px solid #D8E6ED;
+		border-bottom:1px solid #AFC6D2;
+		margin:0 auto;
+	}
+		.bigli{
+		}
+		.big_a{
+			display:block;
+			height:44px;
+			width:131px;
+			color:#628CB2;
+			line-height:44px;
+			font-size:22px;
+			font-weight:bold;
+			text-align:center;
+		}
+		.big_a:hover{
+			color:#FFF;
+			background:url(../images/nav_li_hover.png) repeat-x;
+		}
+		.small_a{
+			display:block;
+			height:24px;
+			width:131px;
+			color:#014E89;
+			line-height:24px;
+			font-size:14px;
+			text-align:center;
+		}
+		.small_a:hover{
+			color:#36952E;
+		}
+		.bottom_border{
+			border-bottom:1px solid #CEE2EC;
+		}
